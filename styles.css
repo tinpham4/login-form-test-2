@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.postimg.cc/NMqDcvkb/mount-fuji-5120x3857-18794.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    border: 1px solid black;
+    width: 350px;
+    height: 420px;
+    z-index: 1px;
+    position: relative;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 6px black;
+    padding: 25px;
+}
+
+.Logo {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.Logo h1 {
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    font-size: 55px;
+}
+
+.user-pass {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+input::placeholder {
+    font-size: small;
+    text-align: center;
+    color: #fff;
+    transition: color 0.4s ease;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.remember-forgot input {
+    margin-right: 5px;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.remember-forgot input[type="checkbox"] {
+    accent-color: transparent;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit button{
+    width: 100%;
+    margin-top: 25px;
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background: transparent;
+    color: white;
+    outline: 1px solid #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#register {
+    text-decoration: none;
+    color: white;
+    font: bold;
+    margin-right: auto;
+}
